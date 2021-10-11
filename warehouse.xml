@@ -1,0 +1,269 @@
+<object-stream>
+  <Warehouse.List>
+    <head>
+      <next>
+        <next>
+          <previous reference="../.."/>
+          <contents class="Warehouse.Floor">
+            <floorLevel>1</floorLevel>
+            <securityLevel>High</securityLevel>
+            <temperature>0.0</temperature>
+            <listOfAisles>
+              <head>
+                <next>
+                  <next>
+                    <next>
+                      <previous reference="../.."/>
+                      <contents class="Warehouse.Aisle">
+                        <identifier>D5</identifier>
+                        <aisleWidth>1</aisleWidth>
+                        <aisleDepth>2</aisleDepth>
+                        <listOfShelves>
+                          <countOfContents>0</countOfContents>
+                        </listOfShelves>
+                        <maxNumberOfShelves>4</maxNumberOfShelves>
+                      </contents>
+                    </next>
+                    <previous reference="../.."/>
+                    <contents class="Warehouse.Aisle">
+                      <identifier>O2</identifier>
+                      <aisleWidth>2</aisleWidth>
+                      <aisleDepth>2</aisleDepth>
+                      <listOfShelves>
+                        <head>
+                          <contents class="Warehouse.Shelf">
+                            <shelfNumber>1</shelfNumber>
+                            <listOfPallets>
+                              <countOfContents>0</countOfContents>
+                            </listOfPallets>
+                            <shelfWidth>2</shelfWidth>
+                            <shelfDepth>2</shelfDepth>
+                            <maximumNumberOfPallets>4</maximumNumberOfPallets>
+                            <palletCount>0</palletCount>
+                          </contents>
+                        </head>
+                        <tail reference="../head"/>
+                        <countOfContents>1</countOfContents>
+                      </listOfShelves>
+                      <maxNumberOfShelves>4</maxNumberOfShelves>
+                    </contents>
+                  </next>
+                  <previous reference="../.."/>
+                  <contents class="Warehouse.Aisle">
+                    <identifier>Z6</identifier>
+                    <aisleWidth>1</aisleWidth>
+                    <aisleDepth>2</aisleDepth>
+                    <listOfShelves>
+                      <head>
+                        <next>
+                          <next>
+                            <next>
+                              <previous reference="../.."/>
+                              <contents class="Warehouse.Shelf">
+                                <shelfNumber>1</shelfNumber>
+                                <listOfPallets>
+                                  <head>
+                                    <next>
+                                      <next>
+                                        <previous reference="../.."/>
+                                        <contents class="Warehouse.Pallet">
+                                          <contentsDescription>Challk</contentsDescription>
+                                          <numberOfItems>200</numberOfItems>
+                                          <minTemp>-2.0</minTemp>
+                                          <maxTemp>23.0</maxTemp>
+                                          <positionX>2</positionX>
+                                          <positionY>1</positionY>
+                                        </contents>
+                                      </next>
+                                      <previous reference="../.."/>
+                                      <contents class="Warehouse.Pallet">
+                                        <contentsDescription>Cheese</contentsDescription>
+                                        <numberOfItems>100</numberOfItems>
+                                        <minTemp>-10.0</minTemp>
+                                        <maxTemp>2.0</maxTemp>
+                                        <positionX>2</positionX>
+                                        <positionY>1</positionY>
+                                      </contents>
+                                    </next>
+                                    <contents class="Warehouse.Pallet">
+                                      <contentsDescription>Tomatoes</contentsDescription>
+                                      <numberOfItems>300</numberOfItems>
+                                      <minTemp>-2.0</minTemp>
+                                      <maxTemp>1.0</maxTemp>
+                                      <positionX>2</positionX>
+                                      <positionY>1</positionY>
+                                    </contents>
+                                  </head>
+                                  <tail reference="../head/next/next"/>
+                                  <countOfContents>3</countOfContents>
+                                </listOfPallets>
+                                <shelfWidth>1</shelfWidth>
+                                <shelfDepth>2</shelfDepth>
+                                <maximumNumberOfPallets>2</maximumNumberOfPallets>
+                                <palletCount>3</palletCount>
+                              </contents>
+                            </next>
+                            <previous reference="../.."/>
+                            <contents class="Warehouse.Shelf">
+                              <shelfNumber>2</shelfNumber>
+                              <listOfPallets>
+                                <countOfContents>0</countOfContents>
+                              </listOfPallets>
+                              <shelfWidth>1</shelfWidth>
+                              <shelfDepth>2</shelfDepth>
+                              <maximumNumberOfPallets>2</maximumNumberOfPallets>
+                              <palletCount>0</palletCount>
+                            </contents>
+                          </next>
+                          <previous reference="../.."/>
+                          <contents class="Warehouse.Shelf">
+                            <shelfNumber>3</shelfNumber>
+                            <listOfPallets>
+                              <countOfContents>0</countOfContents>
+                            </listOfPallets>
+                            <shelfWidth>1</shelfWidth>
+                            <shelfDepth>2</shelfDepth>
+                            <maximumNumberOfPallets>2</maximumNumberOfPallets>
+                            <palletCount>0</palletCount>
+                          </contents>
+                        </next>
+                        <contents class="Warehouse.Shelf">
+                          <shelfNumber>4</shelfNumber>
+                          <listOfPallets>
+                            <countOfContents>0</countOfContents>
+                          </listOfPallets>
+                          <shelfWidth>1</shelfWidth>
+                          <shelfDepth>2</shelfDepth>
+                          <maximumNumberOfPallets>2</maximumNumberOfPallets>
+                          <palletCount>0</palletCount>
+                        </contents>
+                      </head>
+                      <tail reference="../head/next/next/next"/>
+                      <countOfContents>4</countOfContents>
+                    </listOfShelves>
+                    <maxNumberOfShelves>4</maxNumberOfShelves>
+                  </contents>
+                </next>
+                <contents class="Warehouse.Aisle">
+                  <identifier>G4</identifier>
+                  <aisleWidth>3</aisleWidth>
+                  <aisleDepth>3</aisleDepth>
+                  <listOfShelves>
+                    <countOfContents>0</countOfContents>
+                  </listOfShelves>
+                  <maxNumberOfShelves>4</maxNumberOfShelves>
+                </contents>
+              </head>
+              <tail reference="../head/next/next/next"/>
+              <countOfContents>4</countOfContents>
+            </listOfAisles>
+          </contents>
+        </next>
+        <previous reference="../.."/>
+        <contents class="Warehouse.Floor">
+          <floorLevel>2</floorLevel>
+          <securityLevel>Medium</securityLevel>
+          <temperature>6.0</temperature>
+          <listOfAisles>
+            <head>
+              <next>
+                <previous reference="../.."/>
+                <contents class="Warehouse.Aisle">
+                  <identifier>Z9</identifier>
+                  <aisleWidth>1</aisleWidth>
+                  <aisleDepth>2</aisleDepth>
+                  <listOfShelves>
+                    <countOfContents>0</countOfContents>
+                  </listOfShelves>
+                  <maxNumberOfShelves>4</maxNumberOfShelves>
+                </contents>
+              </next>
+              <contents class="Warehouse.Aisle">
+                <identifier>V5</identifier>
+                <aisleWidth>2</aisleWidth>
+                <aisleDepth>2</aisleDepth>
+                <listOfShelves>
+                  <head>
+                    <next>
+                      <next>
+                        <previous reference="../.."/>
+                        <contents class="Warehouse.Shelf">
+                          <shelfNumber>1</shelfNumber>
+                          <listOfPallets>
+                            <head>
+                              <next>
+                                <previous reference="../.."/>
+                                <contents class="Warehouse.Pallet">
+                                  <contentsDescription>Cigarettes</contentsDescription>
+                                  <numberOfItems>1000</numberOfItems>
+                                  <minTemp>-5.0</minTemp>
+                                  <maxTemp>20.0</maxTemp>
+                                  <positionX>2</positionX>
+                                  <positionY>2</positionY>
+                                </contents>
+                              </next>
+                              <contents class="Warehouse.Pallet">
+                                <contentsDescription>Cutlery</contentsDescription>
+                                <numberOfItems>150</numberOfItems>
+                                <minTemp>0.0</minTemp>
+                                <maxTemp>22.0</maxTemp>
+                                <positionX>2</positionX>
+                                <positionY>2</positionY>
+                              </contents>
+                            </head>
+                            <tail reference="../head/next"/>
+                            <countOfContents>2</countOfContents>
+                          </listOfPallets>
+                          <shelfWidth>2</shelfWidth>
+                          <shelfDepth>2</shelfDepth>
+                          <maximumNumberOfPallets>4</maximumNumberOfPallets>
+                          <palletCount>2</palletCount>
+                        </contents>
+                      </next>
+                      <previous reference="../.."/>
+                      <contents class="Warehouse.Shelf">
+                        <shelfNumber>2</shelfNumber>
+                        <listOfPallets>
+                          <countOfContents>0</countOfContents>
+                        </listOfPallets>
+                        <shelfWidth>2</shelfWidth>
+                        <shelfDepth>2</shelfDepth>
+                        <maximumNumberOfPallets>4</maximumNumberOfPallets>
+                        <palletCount>0</palletCount>
+                      </contents>
+                    </next>
+                    <contents class="Warehouse.Shelf">
+                      <shelfNumber>3</shelfNumber>
+                      <listOfPallets>
+                        <countOfContents>0</countOfContents>
+                      </listOfPallets>
+                      <shelfWidth>2</shelfWidth>
+                      <shelfDepth>2</shelfDepth>
+                      <maximumNumberOfPallets>4</maximumNumberOfPallets>
+                      <palletCount>-1</palletCount>
+                    </contents>
+                  </head>
+                  <tail reference="../head/next/next"/>
+                  <countOfContents>3</countOfContents>
+                </listOfShelves>
+                <maxNumberOfShelves>4</maxNumberOfShelves>
+              </contents>
+            </head>
+            <tail reference="../head/next"/>
+            <countOfContents>2</countOfContents>
+          </listOfAisles>
+        </contents>
+      </next>
+      <contents class="Warehouse.Floor">
+        <floorLevel>3</floorLevel>
+        <securityLevel>Low</securityLevel>
+        <temperature>18.0</temperature>
+        <listOfAisles>
+          <countOfContents>0</countOfContents>
+        </listOfAisles>
+      </contents>
+    </head>
+    <tail reference="../head/next/next"/>
+    <countOfContents>3</countOfContents>
+  </Warehouse.List>
+</object-stream>
